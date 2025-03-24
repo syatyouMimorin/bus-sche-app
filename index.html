@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バス時刻表アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>バス時刻表</h1>
+            <div class="current-info">
+                <div id="current-time">--:--</div>
+                <div id="current-day">----</div>
+            </div>
+        </header>
+
+        <div class="next-bus-info">
+            <h2>次のバス</h2>
+            <div class="next-bus-time">
+                <div id="next-departure">--:--</div>
+                <div id="minutes-left">あと -- 分</div>
+            </div>
+        </div>
+
+        <div class="timetable-container">
+            <h2>本日の時刻表</h2>
+            <div id="today-schedule" class="schedule-list"></div>
+        </div>
+
+        <div class="actions">
+            <button id="refresh-btn">更新</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

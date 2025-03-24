@@ -1,0 +1,49 @@
+{
+    "weekday": [
+      {"hour": 7, "minutes": [10, 25, 40, 55]},
+      {"hour": 8, "minutes": [10, 25, 40, 55]},
+      {"hour": 9, "minutes": [10, 25, 40, 55]},
+      {"hour": 10, "minutes": [10, 25, 40, 55]},
+      {"hour": 11, "minutes": [10, 25, 40, 55]},
+      {"hour": 12, "minutes": [10, 25, 40, 55]},
+      {"hour": 13, "minutes": [10, 25, 40, 55]},
+      {"hour": 14, "minutes": [10, 25, 40, 55]},
+      {"hour": 15, "minutes": [10, 25, 40, 55]},
+      {"hour": 16, "minutes": [10, 25, 40, 55]},
+      {"hour": 17, "minutes": [10, 25, 40, 55]},
+      {"hour": 18, "minutes": [10, 25, 40, 55]},
+      {"hour": 19, "minutes": [10, 30, 50]},
+      {"hour": 20, "minutes": [10, 30, 50]},
+      {"hour": 21, "minutes": [10, 30, 50]},
+      {"hour": 22, "minutes": [10, 30]}
+    ],
+    "weekend": [
+      {"hour": 8, "minutes": [15, 45]},
+      {"hour": 9, "minutes": [15, 45]},
+      {"hour": 10, "minutes": [15, 45]},
+      {"hour": 11, "minutes": [15, 45]},
+      {"hour": 12, "minutes": [15, 45]},
+      {"hour": 13, "minutes": [15, 45]},
+      {"hour": 14, "minutes": [15, 45]},
+      {"hour": 15, "minutes": [15, 45]},
+      {"hour": 16, "minutes": [15, 45]},
+      {"hour": 17, "minutes": [15, 45]},
+      {"hour": 18, "minutes": [15, 45]},
+      {"hour": 19, "minutes": [15, 45]},
+      {"hour": 20, "minutes": [15, 45]},
+      {"hour": 21, "minutes": [15]}
+    ],
+    "holiday": [
+      {"hour": 9, "minutes": [0, 30]},
+      {"hour": 10, "minutes": [0, 30]},
+      {"hour": 11, "minutes": [0, 30]},
+      {"hour": 12, "minutes": [0, 30]},
+      {"hour": 13, "minutes": [0, 30]},
+      {"hour": 14, "minutes": [0, 30]},
+      {"hour": 15, "minutes": [0, 30]},
+      {"hour": 16, "minutes": [0, 30]},
+      {"hour": 17, "minutes": [0, 30]},
+      {"hour": 18, "minutes": [0, 30]},
+      {"hour": 19, "minutes": [0]}
+    ]
+  }
