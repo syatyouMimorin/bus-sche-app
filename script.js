@@ -37,8 +37,8 @@ function updateClock() {
     const now = new Date();
     
     // 現在時刻と曜日を表示
-    document.getElementById('current-time').textContent = formatTime(now);
-    document.getElementById('current-day').textContent = getDayName(now);
+    document.getElementById('current-day').textContent = formatTime();
+    document.getElementById('current-dayname').textContent = getDayName(now);
     
     // バスデータがあれば次の出発時刻を計算
     if (busData) {
@@ -49,11 +49,10 @@ function updateClock() {
     }
 }
 
-// 時刻のフォーマット (HH:MM)
-function formatTime(date) {
-    const hours = date.getHours().toString().padStart(2, '0');
-    const minutes = date.getMinutes().toString().padStart(2, '0');
-    return `${hours}:${minutes}`;
+// 日付のフォーマット (yyyy-MM-dd)
+function formatTime() {
+    const datetime = new Date().toLocaleDateString('ja-JP')
+    return datetime;
 }
 
 // 曜日の名前を取得
